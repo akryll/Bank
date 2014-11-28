@@ -1,0 +1,21 @@
+{
+    "name": "akryll/bank",
+    "description": "Yii 2 1C Bank-Client to Database Module",
+    "keywords": ["yii2", "bank", "file"],
+    "type": "yii2-extension",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "akryll",
+            "email": "admin@ideyniy.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "akryll\\bank\\": ""
+        }
+    }
+}
