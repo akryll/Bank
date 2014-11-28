@@ -7,7 +7,6 @@
  */
 namespace akryll;
 
-
 class Bank {
 
     function __construct() {
