@@ -5,7 +5,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-namespace akryll\Bank;
+namespace akryll\Bank\test;
 
 
 class Bank {
