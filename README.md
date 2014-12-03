@@ -11,7 +11,7 @@ Bank
 
 Создаем контроллер и добавляем в него следующее:
 
-```
+```php
 use akryll\Bank;
 use yii\web\UploadedFile;
 
@@ -44,7 +44,7 @@ use yii\web\UploadedFile;
 ```
 Создаем модели:
 
-```
+```php
 //BankForm.php
 <?php
 
@@ -77,7 +77,7 @@ class BankForm extends Model {
 ```
 Создаем простую view для загрузки файла:
 
-```
+```php
 <?php
 // Upload.php
 use yii\widgets\ActiveForm;
@@ -95,7 +95,7 @@ $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]); 
 
 Перечень свойств объекта возвращаемого ```getDocs()```:
 
-```
+```php
         $rules = [
             'СекцияДокумент' => 'doctype',
             'Номер' => 'inbankid',
